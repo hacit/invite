@@ -278,11 +278,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/plugins/thumbnail/lg-thumbnail.min.js"></script>
     
     <script>
-        lightGallery(document.getElementById('lightgallery'), {
-            plugins: [lgThumbnail],
-            speed: 500,
-            download: false,
-            thumbnail: true,
+        document.addEventListener('DOMContentLoaded', function() {
+            lightGallery(document.getElementById('lightgallery'), {
+                plugins: [lgThumbnail],
+                speed: 500,
+                download: false,
+                thumbnail: true,
+                mobileSettings: {
+                    showCloseIcon: true
+                }
+            });
         });
     </script>
 </body>
