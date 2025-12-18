@@ -161,6 +161,11 @@
             font-size: 0 !important; /* 기존 아이콘 폰트 숨기기 */
             opacity: 0.8 !important;
             transition: opacity 0.2s;
+            display: block !important; /* 모바일에서 숨겨지지 않도록 강제 표시 */
+            z-index: 9999 !important; /* 다른 요소 위에 표시되도록 z-index 설정 */
+            position: fixed; /* 화면 기준으로 위치 고정 */
+            top: 15px;
+            right: 15px;
         }
         .lg-close:hover {
             opacity: 1 !important;
@@ -189,7 +194,7 @@
             <p class="sub-title">첫 번째 생일잔치에 초대합니다</p>
             
             <!-- 수정할 부분: 아기 메인 사진 (이미지 주소) -->
-            <img src="https://via.placeholder.com/600x800/E8D5C4/FFFFFF?text=Baby+Photo" alt="아기 사진" class="main-img">
+            <img src="images/image1.png" alt="아기 사진" class="main-img">
         </header>
 
         <hr class="hr-custom">
@@ -220,23 +225,23 @@
             <h2>서아의 성장 이야기</h2>
             <div id="lightgallery">
                 <!-- 수정할 부분: a 태그에는 큰 이미지, img 태그에는 작은 썸네일 이미지 주소 입력 (같아도 무방) -->
-                <a href="https://via.placeholder.com/800x1200/E8D5C4/FFFFFF?text=Photo+1">
-                    <img src="https://via.placeholder.com/400x600/E8D5C4/FFFFFF?text=Photo+1" />
+                <a href="images/image1.png">
+                    <img src="images/image1.png" />
                 </a>
-                <a href="https://via.placeholder.com/800x1200/D4B4AC/FFFFFF?text=Photo+2">
-                    <img src="https://via.placeholder.com/400x600/D4B4AC/FFFFFF?text=Photo+2" />
+                <a href="images/image2.png">
+                    <img src="images/image2.png" />
                 </a>
-                <a href="https://via.placeholder.com/800x1200/B4A5A5/FFFFFF?text=Photo+3">
-                    <img src="https://via.placeholder.com/400x600/B4A5A5/FFFFFF?text=Photo+3" />
+                <a href="images/image3.png">
+                    <img src="images/image3.png" />
                 </a>
-                <a href="https://via.placeholder.com/800x1200/A49494/FFFFFF?text=Photo+4">
-                    <img src="https://via.placeholder.com/400x600/A49494/FFFFFF?text=Photo+4" />
+                <a href="images/image4.png">
+                    <img src="images/image4.png" />
                 </a>
-                <a href="https://via.placeholder.com/800x1200/EAE0D5/FFFFFF?text=Photo+5">
-                    <img src="https://via.placeholder.com/400x600/EAE0D5/FFFFFF?text=Photo+5" />
+                <a href="images/image1.png">
+                    <img src="images/image1.png" />
                 </a>
-                <a href="https://via.placeholder.com/800x1200/DCD1C6/FFFFFF?text=Photo+6">
-                    <img src="https://via.placeholder.com/400x600/DCD1C6/FFFFFF?text=Photo+6" />
+                <a href="images/image2.png">
+                    <img src="images/image2.png" />
                 </a>
             </div>
         </section>
