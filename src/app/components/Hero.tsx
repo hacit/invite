@@ -3,7 +3,7 @@ import heroImage from '/assets/hero-image.png';
 
 export function Hero() {
   return (
-    <div className="relative bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50 py-12 px-6 text-center overflow-hidden">
+    <div className="relative bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50 py-20 px-6 text-center overflow-hidden">
       {/* Animated decorative elements */}
       <motion.div
         className="absolute top-4 left-4 w-16 h-16 bg-amber-200 rounded-full opacity-30"
@@ -69,7 +69,7 @@ export function Hero() {
             <img
               src={heroImage}
               alt="돌잔치 주인공"
-              className="w-48 h-48 rounded-full object-cover border-8 border-white shadow-xl"
+              className="w-64 h-64 rounded-full object-cover border-8 border-white shadow-xl"
             />
           </motion.div>
           

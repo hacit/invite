@@ -1,3 +1,37 @@
 @import './fonts.css';
 @import './tailwind.css';
 @import './theme.css';
+
+
+body {
+    font-family: 'Gowun Dodum', sans-serif;
+    background-color: #fdfcf8;
+    color: #5c3a21;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2, h3 {
+    font-weight: bold;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Add any other global styles here */
