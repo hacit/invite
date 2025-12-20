@@ -8,6 +8,8 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest # 최신 Ubuntu 환경에서 실행
+    permissions:
+      contents: write # GITHUB_TOKEN에 쓰기 권한 부여
 
     steps:
       - name: Checkout # 저장소 코드 체크아웃
