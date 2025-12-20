@@ -1,0 +1,33 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # main 브랜치에 푸시될 때 워크플로우 실행
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest # 최신 Ubuntu 환경에서 실행
+
+    steps:
+      - name: Checkout # 저장소 코드 체크아웃
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js # Node.js 환경 설정
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18' # Node.js 버전 지정 (프로젝트에 맞게 변경 가능)
+
+      - name: Install dependencies # 의존성 설치
+        run: npm install
+
+      - name: Build project # 프로젝트 빌드
+        run: npm run build # Vite 빌드 명령
+
+      - name: Deploy to GitHub Pages # gh-pages 브랜치로 배포
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }} # GitHub 토큰 (자동 생성)
+          publish_dir: ./dist # 빌드 결과물 폴더 (figma/dist)
+          publish_branch: gh-pages # 배포할 브랜치 이름
+          cname: # 사용자 정의 도메인을 사용하는 경우 여기에 도메인 입력 (예: example.com)
