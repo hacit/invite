@@ -33,10 +33,10 @@ export function InvitationMessage() {
 
         <div className="mt-8 pt-6 border-t border-gray-200">
           <p className="text-gray-500 text-sm">
-            아빠 김○○ · 엄마 이○○의 아들
+            아빠 하진수 · 엄마 권다이의 딸
           </p>
           <p className="text-gray-800 mt-2">
-            김 지 우
+            하 율
           </p>
         </div>
       </div>

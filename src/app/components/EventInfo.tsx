@@ -3,7 +3,7 @@ import { Calendar, Clock } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
 export function EventInfo() {
-  const eventDate = new Date('2025-01-15');
+  const eventDate = new Date('2026-01-11');
   const [dDay, setDDay] = useState(0);
 
   useEffect(() => {
@@ -50,7 +50,7 @@ export function EventInfo() {
             </div>
             <div>
               <p className="text-gray-500 text-sm">날짜</p>
-              <p className="text-gray-800">2025년 1월 15일 토요일</p>
+              <p className="text-gray-800">2026년 1월 11일 일요일</p>
             </div>
           </motion.div>
 
@@ -66,7 +66,7 @@ export function EventInfo() {
             </div>
             <div>
               <p className="text-gray-500 text-sm">시간</p>
-              <p className="text-gray-800">오후 1시</p>
+              <p className="text-gray-800">오전 11시30분</p>
             </div>
           </motion.div>
         </div>

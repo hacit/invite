@@ -4,7 +4,6 @@ import { InvitationMessage } from './components/InvitationMessage';
 import { EventInfo } from './components/EventInfo';
 import { PhotoGallery } from './components/PhotoGallery';
 import { LocationInfo } from './components/LocationInfo';
-import { ShareButtons } from './components/ShareButtons';
 
 export default function App() {
   return (
@@ -15,7 +14,6 @@ export default function App() {
         <EventInfo />
         <PhotoGallery />
         <LocationInfo />
-        <ShareButtons />
         
         <footer className="py-8 text-center text-gray-400 text-sm">
           <p>소중한 분들을 초대합니다</p>

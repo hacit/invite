@@ -24,15 +24,13 @@ export function LocationInfo() {
               </div>
               <div className="flex-1">
                 <p className="text-gray-500 text-sm mb-2">장소</p>
-                <p className="text-gray-800 mb-1">○○웨딩홀 3층 크리스탈홀</p>
-                <p className="text-gray-500 text-sm">서울시 강남구 테헤란로 123</p>
+                <p className="text-gray-800 mb-1">엘타워 코러스홀</p>
+                <p className="text-gray-500 text-sm">서울시 서초구 강남대로 213 엘타워</p>
               </div>
             </div>
           </motion.div>
 
-          <div className="border-t border-gray-100"></div>
-
-          <div>
+          {/* <div>
             <div className="flex items-start gap-4 mb-4">
               <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center flex-shrink-0">
                 <Phone className="w-6 h-6 text-orange-600" />
@@ -41,7 +39,7 @@ export function LocationInfo() {
                 <p className="text-gray-500 text-sm mb-2">연락처</p>
                 <div className="space-y-2">
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-600">아빠 김○○</span>
+                    <span className="text-gray-600">아빠 하진수</span>
                     <a 
                       href="tel:010-1234-5678" 
                       className="text-amber-600 hover:text-amber-700 text-sm"
@@ -50,7 +48,7 @@ export function LocationInfo() {
                     </a>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-600">엄마 이○○</span>
+                    <span className="text-gray-600">엄마 권다이</span>
                     <a 
                       href="tel:010-9876-5432" 
                       className="text-amber-600 hover:text-amber-700 text-sm"
@@ -61,14 +59,13 @@ export function LocationInfo() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="border-t border-gray-100 pt-4">
             <p className="text-gray-600 text-sm mb-3">교통편</p>
             <div className="space-y-2 text-sm text-gray-600">
-              <p>• 지하철: 2호선 강남역 3번 출구 도보 5분</p>
-              <p>• 버스: 강남역 정류장 하차 (146, 740, 4319)</p>
-              <p>• 주차: 건물 지하 주차장 이용 가능 (3시간 무료)</p>
+              <p>• 지하철: 양재역 9번 출구분</p>
+              <p>• 주차: 건물 지하 주차장</p>
             </div>
           </div>
         </div>
