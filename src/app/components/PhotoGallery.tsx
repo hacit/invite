@@ -6,32 +6,32 @@ import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 const photos = [
   {
     id: 1,
-    src: 'https://images.unsplash.com/photo-1627850860407-11be28af831a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYWJ5JTIwYmlydGhkYXklMjBjZWxlYnJhdGlvbnxlbnwxfHx8fDE3NjYxNTg4MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080',
+    src: 'assets/img_1.jpg',
     alt: '돌잔치 사진 1'
   },
   {
     id: 2,
-    src: 'https://images.unsplash.com/photo-1758548204223-b830a3224f73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYWJ5JTIwcGFydHklMjBkZWNvcmF0aW9uc3xlbnwxfHx8fDE3NjYxNTg4MTN8MA&ixlib=rb-4.1.0&q=80&w=1080',
+    src: 'assets/img_2.jpg',
     alt: '돌잔치 사진 2'
   },
   {
     id: 3,
-    src: 'https://images.unsplash.com/photo-1707143017681-777ab2ac79a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYWJ5JTIwcGxheWluZyUyMHRveXN8ZW58MXx8fHwxNzY2MTU4NTUwfDA&ixlib=rb-4.1.0&q=80&w=1080',
+    src: 'assets/img_3.jpg',
     alt: '돌잔치 사진 3'
   },
   {
     id: 4,
-    src: 'https://images.unsplash.com/photo-1575645186854-f9e8372e0b19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYWJ5JTIwZmlyc3QlMjBiaXJ0aGRheSUyMGNha2V8ZW58MXx8fHwxNzY2MTU4ODE0fDA&ixlib=rb-4.1.0&q=80&w=1080',
+    src: 'assets/img_4.jpg',
     alt: '돌잔치 사진 4'
   },
   {
     id: 5,
-    src: 'https://images.unsplash.com/photo-1610712005875-33a7181e2018?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYWJ5JTIwY29sb3JmdWwlMjBiYWNrZ3JvdW5kfGVufDF8fHx8MTc2NjE1ODgxNHww&ixlib=rb-4.1.0&q=80&w=1080',
+    src: 'assets/img_5.jpg',
     alt: '돌잔치 사진 5'
   },
   {
     id: 6,
-    src: 'https://images.unsplash.com/photo-1730189083266-aca414dab812?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxrb3JlYW4lMjBiYWJ5JTIwdHJhZGl0aW9uYWwlMjBvdXRmaXR8ZW58MXx8fHwxNzY2MTU4ODEzfDA&ixlib=rb-4.1.0&q=80&w=1080',
+    src: 'assets/img_6.jpg',
     alt: '돌잔치 사진 6'
   }
 ];
